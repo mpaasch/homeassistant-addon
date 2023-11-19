@@ -15,13 +15,15 @@
   ],
   "boot": "auto",
   "map": [
-    "config:rw"
+    "config:rw",
+    "ssl:rw"
   ],
   "ingress": false,
   "hassio_api": true,
   "hassio_role": "default",
   "homeassistant_api": true,
   "host_network": false,
+  "uart": true,
   "options": {
     "log_level": "information",
     "app_config_folder": "/config/netdaemon4",
